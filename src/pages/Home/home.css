@@ -1,0 +1,51 @@
+@media (max-width: 850px) {
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bio{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+}
+@media (max-width: 750px) {
+    .hey{
+        font-size:"1.8vmax",
+    }
+    .saswata{
+        font-size:"3.5vmax",
+    }
+}
+@media (max-width: 650px) {
+    .hey{
+        font-size:"1.6vmax",
+    }
+    .saswata{
+        font-size:"3.2vmax",
+    }
+}
+@media (max-width: 550px) {
+    .hey{
+        font-size:"1.4vmax",
+    }
+    .saswata{
+        font-size:"3vmax",
+    }
+}
+
+@media (max-width: 450px) {
+    .hey{
+        font-size:"1.2vmax",
+    }
+    .saswata{
+        font-size:"2.5vmax",
+    }
+}
+
+@media only screen and (min-width: 850px){
+    .home{
+        height: 100dvh;
+    }
+}

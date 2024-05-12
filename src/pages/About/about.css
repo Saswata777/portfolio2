@@ -1,0 +1,58 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000 */
+
+.about{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #1E0342;
+    font-style: normal;
+    font-size: 1.5vmax;
+  }
+  #particles canvas{
+    z-index: -1;
+    /* position: absolute; */
+  }
+  
+  #particles-js {
+      /* background: black; */
+      height: 100vh;
+  }
+  /* .about {
+      font-family: "Kalam", cursive;
+      font-weight: 300;
+      font-style: normal;
+    } */
+    
+    /* .about {
+      font-family: "Kalam", cursive;
+      font-weight: 500;
+      font-style: normal;
+      color: #1E0342;
+      font-size: 1.5vmax;
+    } */
+    
+    /* .about {
+      font-family: "Kalam", cursive;
+      font-weight: 700;
+      font-style: normal;
+    }
+     */
+
+     @media (max-width: 650px) {
+      .about{
+        flex-direction: column-reverse;
+        justify-content: center;
+      }
+      .des{
+        width: 100%;
+      }
+      .des_pic{
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      .about_timeline{
+        width: 90vw;
+        margin-bottom: 20px;
+      }
+  }

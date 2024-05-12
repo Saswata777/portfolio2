@@ -1,0 +1,144 @@
+.logo{
+    width: 20%;
+}
+.nav_menu{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.mode{
+    width: 20%;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.menu_sm{
+    display: none;
+}
+
+.mode div .mode_i{
+    font-size: 22px;
+}
+
+#progress-bar {
+    --progress: 0;
+    height: 6px;
+    width: var(--progress);
+    background-color: "#5AB2FF";
+  }
+  .menu{
+    height: 50px;
+  }
+#about,#contact,#skill,#project{
+    color: #2DCCB8;
+}
+@media (max-width:800px){
+    
+    .menu {
+        /* display: none; */
+
+        position: absolute;
+        top: 45px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        overflow: hidden;
+        border-radius: 0;
+        transition: height 1s ease;
+    }
+
+    .menu a{
+        z-index: 2;
+        margin: 0;
+
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .nav_menu{
+        background-color: #074173;
+        width: 40%;
+    }
+    .logo{
+        width: 40%;
+    }
+
+    .logo_name{
+        font-size: 8vmax;
+    }
+    
+    .menu_sm{
+        display: block;
+        display: flex;
+        align-items: center;
+        background-color: #074173;
+    }
+    
+    .logo{
+        font-size: 10px;
+        /* line-height: 1.5rem;   */
+    }
+    .logo_name{
+        font-size: 5px;
+    }
+    .mode{
+        flex-direction: column;
+        z-index: 3;
+    }
+    .mode_i {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #004274;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+}
+
