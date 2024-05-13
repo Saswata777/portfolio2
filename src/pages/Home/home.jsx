@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 
 
-const pdf_file_url = "https://Saswata777.github.io/Portfolio2/Frontend_Intern.pdf";
+const pdf_file_url = "https://portfolio2-6y5e.onrender.com/Saswata_CV.pdf";
 
 
 const Home = () => {
