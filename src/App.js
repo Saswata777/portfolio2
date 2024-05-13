@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Routes, Route, HashRouter } from 'react-router-dom'
+import { BrowserRouter , Routes, Route, } from 'react-router-dom'
 import NavBar from './components/navbar';
 import About from './pages/About/About';
 import Contact from './pages/contact/contact';
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
 
-      <HashRouter>
+      <BrowserRouter>
             <NavBar/>
             <Routes>
             <Route path="/" element={<Home />} />
@@ -24,8 +24,9 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="skill" element={<Skill />} />
             <Route path="project" element={<Project />} />
+              
             </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
