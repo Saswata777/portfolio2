@@ -9,6 +9,7 @@ import ecomm from './thumbnail/ecomm.png'
 import { FaLink } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import Progressbar from '../../components/progressbar';
+import VideoConfo from './thumbnail/VideoConfo.png'
 
 
 
@@ -16,18 +17,25 @@ const { Meta } = Card;
 
 const projects = [
         {
+          Name: "Video Conference Web App",
+          Thubnail: VideoConfo,
+          Description: "TechStack: React.js,Node js, Express Js, MongoDb.  API utilization: ZegoCloud API, Functionality: Real-time video Conference,chat, Screen Sharing, Meeting Link sharing.User Fully Authenticate , Protected Routes, Admin Panel of users",
+          Link: "https://meetup-zeta-vert.vercel.app/",
+          Github: "https://github.com/Saswata777/video_conference"
+        },
+        {
+          Name:"EduConnect",
+          Thubnail: educonnect,
+          Description:"It is a Project Management Web App. Here Students can upload Projects as well as view others Project.It has Student Dashboard as well as college Dashboard",
+          Link:"https://edu-connect-jade.vercel.app/",
+          Github:"https://github.com/Saswata777/EduConnect"
+        },
+        {
           Name: "Weather App",
           Thubnail: weather,
           Description: "TechStack: React.js, API utilization: OpenWeatherMap API, Functionality: Real-time weather data, temperature, location, current date and time, weather conditions, humidity, pressure, wind speed, and cloudiness.",
           Link: "https://saswata777.github.io/Weather-App/",
           Github: "https://github.com/Saswata777/Weather-App"
-        },
-        {
-            Name:"EduConnect",
-            Thubnail: educonnect,
-            Description:"It is a Project Management Web App. Here Students can upload Projects as well as view others Project.It has Student Dashboard as well as college Dashboard",
-            Link:"https://edu-connect-jade.vercel.app/",
-            Github:"https://github.com/Saswata777/EduConnect"
         },
         {
             Name:"Time Manager",

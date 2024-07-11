@@ -122,6 +122,10 @@ const About = () => {
                                     },
                                     {
                                         children: 'Topic: Find and  compare methods to identify features for early detection of diabetic retinopathy and glaucoma',
+                                    },
+                                    {
+                                        label:'04/06/2024 - 09/07/2024',
+                                        children:'Done Internship At Ardent Computech: on Cloud-based Full Stack Development with AI & ML Integration using MERN',
                                     }
                                     ]}
                                 />
