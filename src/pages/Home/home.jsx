@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 
 
-const pdf_file_url = "https://portfolio2-6y5e.onrender.com/Saswata_CV.pdf";
+const pdf_file_url = "https://portfolio2-6y5e.onrender.com/Saswata_Maitra_CV_MERN_STACK.pdf";
 
 
 const Home = () => {
